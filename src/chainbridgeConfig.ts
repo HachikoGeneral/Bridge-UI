@@ -8,7 +8,7 @@ export type TokenConfig = {
   decimals?: number;
 };
 
-export type ChainType = "Ethereum" | "Substrate";
+export type ChainType = "Ethereum" | "Ethereum";
 
 export type BridgeConfig = {
   networkId?: number;
@@ -43,7 +43,7 @@ export type SubstrateBridgeConfig = BridgeConfig & {
 };
 
 export type ChainbridgeConfig = {
-  chains: Array<EvmBridgeConfig | SubstrateBridgeConfig>;
+  chains: Array<EvmBridgeConfig | EvmBridgeConfig>;
 };
 
 export type UIConfig = { wrapTokenPage: boolean };
