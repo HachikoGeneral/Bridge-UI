@@ -1,35 +1,34 @@
 {
   "chains": [
     {
-      "name": "BSC",
+      "name": "Chikochain",
       "type": "ethereum",
-      "id": "97",
-      "endpoint": "https://data-seed-prebsc-1-s1.binance.org:8545",
-      "from": "0xF1d05a39BBC69BCb62835FCeBD16d87B79508F30",
+      "id": "0",
+      "endpoint": "http://70.34.216.42:9934",
+      "from": "0xf5E4636000aBb8002d63ac228F82a67e18a4A4e7",
       "opts": {
-        "bridge": "0xe3F6D4EAEDDCBCe98932F7e1398C5ADb9336e874",
-        "erc20Handler": "0xe4821f1244e1846a48cB7Bd21f74335AbC9e207f",
-        "genericHandler": "0xe4821f1244e1846a48cB7Bd21f74335AbC9e207f",
+        "bridge": "0xbEF958CB1E0Dd1c7D8c5033c7D19DFc88598283e",
+        "erc20Handler": "0x66b5B3Bbff39231c423855AaD19e51f150F4e202",
+        "genericHandler": "0x66b5B3Bbff39231c423855AaD19e51f150F4e202",
         "gasLimit": "1000000",
         "maxGasPrice": "10000000000",
-		"http": "true",
-		"startBlock": "13681180"
+        "startBlock": "0",
+        "http": "true"
       }
     },
     {
-      "name": "XLC",
+      "name": "Polygon",
       "type": "ethereum",
-      "id": "0",
-      "endpoint": "https://rpc.liquidchain.net",
-      "from": "0xF1d05a39BBC69BCb62835FCeBD16d87B79508F30",
+      "id": "1",
+      "endpoint": "wss://polygon-mainnet.g.alchemy.com/v2/Sziok2o64OsCpH9HP339wQdHe-akTGFi",
+      "from": "0xf5E4636000aBb8002d63ac228F82a67e18a4A4e7",
       "opts": {
-        "bridge": "0xf969b23bAfbF3869c2509Faa1bEe4d15774a3f5c",
-        "erc20Handler": "0x94E4053D7a795d84728625Ca678E56537A160279",
-        "genericHandler": "0x94E4053D7a795d84728625Ca678E56537A160279",
-        "gasLimit": "1000000",
-        "maxGasPrice": "1000000000",
-		"http": "true",
-		"startBlock": "15000"
+        "bridge": "0x006f485B4216759cfb8979DE2E4974f74c95585D",
+        "erc20Handler": "0xaFfCFf9AA352E8f3960e2B9538164053F8C9E264",
+        "genericHandler": "0xaFfCFf9AA352E8f3960e2B9538164053F8C9E264",
+        "gasLimit": "4000000",
+        "maxGasPrice": "40000000000"
+	"startBlock": "0"
       }
     }
   ]
